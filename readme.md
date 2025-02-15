@@ -21,5 +21,5 @@ gradle wrapper # If you haven't already done this
 
 Output will be at:
 ```
-app/build/libs/WatchPup-x.y.z.jar
+app/build/libs/Watchpup-Paper-x.y.z.jar
 ```
