@@ -28,7 +28,7 @@ public class ServerManager {
 
   public int httpPort;
 
-  public ServerManager(@Nonnull Plugin plugin, @Nonnull Logger logger) {
+  public ServerManager(@Nonnull PaperPlugin plugin, @Nonnull Logger logger) {
     this.log = logger;
 
     this.log.info("ServerManager: Loading config from " + plugin.getDataFolder().getAbsolutePath() + "/config.yml");

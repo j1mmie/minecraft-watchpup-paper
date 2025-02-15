@@ -11,17 +11,17 @@ import org.bukkit.plugin.java.JavaPluginLoader;
 
 import cloud.jimmie.watchpup.bstats.Metrics;
 
-public class Plugin extends JavaPlugin {
+public class PaperPlugin extends JavaPlugin {
   public final static int BSTATS_PLUGIN_ID = 24489;
 
   @Nullable
   public ServerManager serverManager;
 
-  public Plugin() {
+  public PaperPlugin() {
     super();
   }
 
-  protected Plugin(JavaPluginLoader loader, PluginDescriptionFile description, File dataFolder, File file) {
+  protected PaperPlugin(JavaPluginLoader loader, PluginDescriptionFile description, File dataFolder, File file) {
     super(loader, description, dataFolder, file);
   }
 
